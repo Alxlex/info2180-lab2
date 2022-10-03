@@ -14,12 +14,18 @@ h3 {
     color: #2D3748;
 }
 
+article {
+    padding-left: 100px;
+}
+
 h1 {
+    margin-bottom: 0px;
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
+    margin-bottom: 0px;
     font-size: 32px;
     color: #48BB78;
 }
@@ -28,9 +34,8 @@ h2 {
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 34% 59% 7%;
-    grid-column-gap: 20px; 
+    grid-column-gap: 100px; 
     grid-row-gap: 50px;
-
 }
 
 #photo {
@@ -38,7 +43,6 @@ h2 {
     width: 200px; 
     height: 200px;
     float: left;
-
 }
 
 header {
@@ -57,9 +61,8 @@ main {
     grid-column: 1;
 }
 
-
-
 aside {
+    padding-right: 20px;
     grid-row: 2;
     grid-column: 2;
 }
@@ -74,6 +77,10 @@ footer {
     align-items: center;
 }
 
+footer p {
+    padding-left: 100px;
+}
+
 #game {
     border: 2px solid black; 
     width: 200px; 
@@ -83,8 +90,12 @@ footer {
 
 section {
     background-color: #E2E8F0;
-
 }
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+} 
 
 main p {
     color: #718096;
